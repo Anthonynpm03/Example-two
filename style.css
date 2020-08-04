@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #F5FBEF;
+}
+
+li,a,button h1 h2 h5 p {
+	font font-family: 'Roboto Slab', serif;
+	font-weight: 500; 
+	color: ;
+	text-decoration: none;
+	list-style: none;
+}
+
+           /* NAVBAR*/
+
+
+.navbar{
+	width: 100%;
+	background-color: #1c4673;
+	padding: 0px 25px;
+}
+
+.nav_bar_left{
+	display: flex;
+	flex-wrap: nowrap;	
+}
+
+.logo{
+	cursor: pointer;
+	font-size: 50px;
+	color: white;
+	background-color: #fb3;
+	padding: 6px;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 20px;
+	
+}
+
+.nav_links li a{
+	color: #b0ffe8;
+	transition:  0.3s ease;
+}
+
+.nav_links li a:hover{
+	color: white;
+}
+
+.nav_bar_right{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.form-group{
+	width: 250px;
+}
+
+.dropdown-menu{
+	width: 300px;
+}
+
+		/*Container body*/
+.container{
+	margin-top: 120px;
+	background-image: url(fondo.jpg);
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+ 
+		/*MENU IZQUIERDO*/
+
+#menu a:hover{
+	opacity: 1;
+	color: orange;
+	box-shadow: 2px 2px 2px #fb3;
+}
+
+#menu{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 30px;
+}
+
+#conf a:hover{
+	opacity: 1;
+	color: #fb3;
+}
+
+.fab{
+	color:#ffb631;
+	box-shadow: 2px 2px 2px #9a8d8d;
+}
+
+.fa-file-download{
+	opacity: 0.6;
+}
+
+.far{
+	opacity: 0.6;	
+}
+
+#conf{
+	font-size: 30px;
+}
+
+.fa-cog{
+	opacity: 0.6;
+}
+
+		/*BANNER CENTER*/
+
+.banner_center{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+
+#card_selection{
+	padding: 10px;
+	margin-left: 10px;
+}
+
+#tarjetas{
+	margin-top: -30px;
+	display: flex;
+	justify-content: space-around;
+	padding:10px;
+}
+
+
+#tarjeta_1{
+	height: 200px;
+	width: 325px;
+	border: 1px solid black;
+	padding: 15px;
+	background-image: url(fondo_tarjeta_1.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 4px;
+	border-color: #9898b7;
+	position: relative;
+	box-shadow: 2px 2px 2px #9a8d8d;
+}
+
+#visa{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	font-size: 30px;
+}
+
+#signal{
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+	font-size: 30px;
+}
+
+#chip{
+	position: absolute;
+	bottom: 10px;
+	left: 60px;
+	font-size: 30px;
+}
+
+
+#tarjeta_2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 200px;
+	width: 325px;
+	border: 1px solid black;
+	padding: 15px;
+	background-color: #ecf1f7;
+	background-size: cover;
+	background-position: center;
+	border-radius: 4px;
+	border-color: #9898b7;
+	position: relative;
+	box-shadow: 2px 2px 2px #9a8d8d;
+
+}
+
+.fa-microchip{
+	color: #f7d41b;
+}
+
+.fa-arrows-alt{
+	color: #0b58a7;
+}
+
+#logo_tarjeta{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 30px;
+}
+
+#visa_1{
+	position: absolute;
+	bottom: 10px;
+	right:  25px;
+	font-size: 30px;
+}
+
+#signal_1{
+	position: absolute;
+	top: 10px;
+	left:10px;
+}
+
+#transactions{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.fa-sliders-h{
+	opacity: 0.7;
+}
+
+#transactions a:hover{
+	color: #fb3;
+	opacity: 1;
+}
+
+#list_definitiva{
+	display: flex;
+	justify-content: space-around;
+	padding: 15px;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.fa-truck-loading{
+	color: #16a7a6;
+}
+
+.fa-car-alt{
+	color: #ff6e19eb;
+}
+.fa-x-ray{
+	color: #b623e6;
+}
+
+		/*PERFIL DERECHO*/
+
+.banner_der{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#icono_transaccion{
+	margin-left: 15px;
+}
+
+
+#perfil{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#perfil img{
+	width: 80px;
+	border-radius: 50%;
+	border: 2px solid white;
+	box-shadow: 2px 2px 2px #9a8d8d;
+}
+
+#perfil a:hover{
+	color: #fb3;
+	opacity: 1;
+}
+
+.btn-warning{
+
+}
+
+#insurance span{
+	font-size: 35px;
+	font-weight: bold;
+}
+#text_insurance{
+	padding: 10px 0px;
+	border-bottom:  10px solid #fb3;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.insurence_list{
+	padding: 30px 0px; 
+}
+.list_item{
+ margin-top: 15px;
+
+}
+
+#insurance h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.t-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px;
+}
+
+.porcentaje_icon{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.t-flex-two{
+	height: 130px;
+	width: 130px;
+	text-align: center;
+	border: 10px solid orange;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.t-flex-two span{
+font-size: 32px;
+font-weight: bold;
+}
+.t-flex-two p{
+	margin: auto;
+}
+
+		/*MEDIA QUERYS*/
+
+@media screen and (max-width: 530px){
+	
+	.nav_bar_right{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.nav_bar_left{
+		display: none;
+	}
+	
+
+	#menu{
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+		margin-top: 5px;
+	}
+
+	.list_icon{
+		display: none;
+	}
+	.list_service{
+		display: none;
+	}
+
+	
+}
